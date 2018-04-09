@@ -1,0 +1,99 @@
+
+
+
+
+@media screen and (max-width:480px) {
+  body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+  }
+
+#nav{
+  width:100%;
+  height:100px;
+  background-color:red;
+  text-align:center;
+  color:white;
+  font-family: helvetica;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#nav ul li {
+  display:inline;
+  border: solid 1px white;
+  margin:5px;
+}
+
+#cos {
+  margin-top: 100px;
+  background-color:#8A4B08;
+
+}
+#cos ul {
+margin:0;
+padding:11px;
+
+}
+ #cos ul li {
+   border:solid:10px black;
+   color: black;
+   text-align:center;
+   background-color:yellow;
+   display:block;
+   margin:10px 2px;
+   padding: 5px 0 120px 0;
+
+ }
+
+
+
+
+
+ #menú {
+ margin:0;
+ padding:1px;
+ background-color:yellow;
+}
+ #menú ul {
+   margin:0;
+   padding:0;
+ }
+
+ }
+  #menú ul li {
+    border:solid:5px black;
+    color: black;
+    text-align:center;
+    background-color:#8A4B08;
+    display:inline;
+    margin:10px 2px;
+    padding: 5px 0 120px 0;
+
+  }
+  #hamburgesa {
+    margin:0;
+    padding:0;
+    position:absolute;
+    left:5px;
+    top:5px;
+  }
+
+  #peu{
+  margin:0;
+  padding:0;
+  width:100%;
+  background-color:red;
+  text-align:center;
+  color:white;
+  overflow:hidden;
+  }
+
+
+  #peu ul li {
+    text-align:center;
+    display:block;
+    text-align:center;
+  }

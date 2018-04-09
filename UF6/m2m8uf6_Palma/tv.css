@@ -1,0 +1,88 @@
+@media screen and (min-width:1280px) {
+  body{
+    background-color:pink;
+    margin:0;
+    padding:0;
+  }
+
+#capçalera{
+  width:100%;
+  height:100%;
+  background-color:Orange;
+  text-align:center;
+  color:white;
+  font-family:helvetica;
+}
+
+#capçalera ul li {
+  display:inline;
+  border: solid 2px white;
+  margin:10px;
+}
+
+#cos {
+  width:80%;
+  background-color:purple;
+  float: left;
+}
+
+#cos ul {
+margin:0;
+padding:0;
+}
+
+
+ #cos ul li {
+   border:solid:10px black;
+   color: black;
+   text-align:center;
+   background-color:yellow;
+   display:block;
+   margin:15px 20px;
+   padding: 10px 0 70px 0;
+   float:left;
+   width:30%;
+   height:200px;
+
+ }
+
+
+ #menú {
+  float: left;
+ background-color:yellow;
+ width:20%;
+}
+
+ #menú ul {
+   margin:0;
+   padding:0;
+ }
+
+
+  #menú ul li {
+    border:solid:5px black;
+    color: black;
+    text-align:center;
+    background-color:purple;
+    display:block;
+    margin:15px 13px;
+    padding: 5px 0 60px 0;
+  }
+
+
+  #peu{
+  margin:0;
+  padding:0;
+  width:100%;
+  background-color:orange;
+  text-align:center;
+  color:white;
+  overflow:hidden;
+  }
+
+
+  #peu ul li {
+    text-align:center;
+    display:block;
+    text-align:center;
+  }
